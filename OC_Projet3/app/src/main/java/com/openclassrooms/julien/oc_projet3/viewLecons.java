@@ -20,6 +20,11 @@ public class viewLecons extends AppCompatActivity
 
         lecon = new lecons();
         lecon.execute();
-    }
 
+
+    }
+        public void resultat ()
+        {
+            lecon.
+        }
 }

@@ -47,7 +47,26 @@ public class connexionWS
 
     }
 
-    static String convertStreamToString(java.io.InputStream is) {
+    /*public String connect ()
+    {
+        // Parse les données JSON
+        try{
+            JSONArray jArray = new JSONArray(result);
+            for(int i=0;i<jArray.length();i++){
+                JSONObject json_data = jArray.getJSONObject(i);
+                );
+                // Résultats de la requête
+                returnString += "\n\t" + jArray.getJSONObject(i);
+            }
+        }
+        catch(JSONException e)
+        {
+            Log.e("log_tag", "Error parsing data " + e.toString());
+        }
+    }*/
+
+    static String convertStreamToString(java.io.InputStream is)
+    {
         java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
         return s.hasNext() ? s.next() : "";
     }
