@@ -11,12 +11,48 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.03"
-        android:text="lecon : Erreur de chargement..."
-        tools:text="lecon : Erreur de chargement..." />
+        android:text="lecon : chargement..."
+        tools:text="lecon : chargement..." />
 
     <VideoView
         android:id="@+id/video_lecon"
         android:layout_width="match_parent"
         android:layout_height="199dp"
         android:layout_weight="0.27" />
+
+    <Button
+        android:id="@+id/button_termine_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Terminer" />
+
+    <TextView
+        android:id="@+id/textView_titre_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="Date de votre prochain rendez-vous :" />
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:text="date" />
+
+    <TextView
+        android:id="@+id/textView_titre_prochaine_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Date suivante :" />
+
+    <TextView
+        android:id="@+id/textView_prochaine_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:text="" />
+
 </LinearLayout>

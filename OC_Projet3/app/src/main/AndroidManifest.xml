@@ -21,10 +21,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".viewLecons">
-
         </activity>
         <activity android:name=".Menu">
-
+        </activity>
+        <activity android:name=".viewExercice">
+        </activity>
+        <activity android:name=".viewContact">
         </activity>
 
     </application>
