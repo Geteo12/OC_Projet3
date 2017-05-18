@@ -11,20 +11,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.03"
+        android:fontFamily="casual"
         android:text="lecon : chargement..."
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
         tools:text="lecon : chargement..." />
 
-    <VideoView
-        android:id="@+id/video_lecon"
+    <TextView
+        android:id="@+id/textView_lecon_en_cours"
         android:layout_width="match_parent"
-        android:layout_height="199dp"
-        android:layout_weight="0.27" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:fontFamily="casual"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/button_repeter"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Repeat"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button_termine_video"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.03"
         android:text="Terminer" />
 
     <TextView
@@ -32,27 +53,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="Date de votre prochain rendez-vous :" />
+        android:fontFamily="casual"
+        android:text="Date de votre prochain rendez-vous :"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.08"
-        android:text="date" />
+        android:fontFamily="casual"
+        android:text="date"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_dark" />
 
     <TextView
         android:id="@+id/textView_titre_prochaine_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.03"
-        android:text="Date suivante :" />
+        android:fontFamily="casual"
+        android:text="Date suivante :"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView_prochaine_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.14"
-        android:text="" />
+        android:fontFamily="casual"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 </LinearLayout>

@@ -4,36 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.openclassrooms.julien.oc_projet3.MainActivity">
+    tools:context="com.openclassrooms.julien.oc_projet3.controller.MainActivity">
 
 
     <Button
         android:id="@+id/button_connecter"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="se connecter"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/edit_identifiant"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="158dp" />
+        android:layout_marginTop="51dp"
+        android:fontFamily="casual"
+        android:text="se connecter"
+        android:background="@color/colorPrimary"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.IconMenu.Item" />
 
     <TextView
         android:id="@+id/text_identifiant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="identifiant"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp" />
+        android:layout_marginTop="55dp"
+        android:fontFamily="casual"
+        android:text="identifiant"
+        android:textAppearance="@android:style/TextAppearance.Holo" />
 
     <EditText
         android:id="@+id/edit_identifiant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/text_identifiant"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:fontFamily="casual"
         android:inputType="textPersonName"
-        android:text=""
-        android:layout_below="@+id/text_identifiant"
-        android:layout_centerHorizontal="true" />
+        android:text="" />
 
 </RelativeLayout>

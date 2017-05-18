@@ -13,21 +13,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".viewLecons">
+        <activity android:name=".view.viewLecons">
         </activity>
-        <activity android:name=".Menu">
+        <activity android:name=".controller.Menu">
         </activity>
-        <activity android:name=".viewExercice">
+        <activity android:name=".view.viewExercice">
         </activity>
-        <activity android:name=".viewContact">
+        <activity android:name=".view.viewContact">
         </activity>
+        <activity android:name=".controller.viewBDD">
+        </activity>
+        <activity android:name=".controller.ViewVerifUtilisateur">
+        </activity>
+        <activity android:name=".view.viewUpdateLecon">
+        </activity>
+        <service android:name=".controller.service" />
 
     </application>
 
